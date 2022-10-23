@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="page1">
+    <!-- Abigail will create header feature -->
+    <header>
+      <h1>Game Rec Webapp</h1>
+      <p>Quickly find games based on your interests!</p>
+    </header>
+
+    <aisde class="newsArticle">
+      <h3>Gamer News!</h3>
+      <div class="src"></div>
+      <div class="title"></div>
+      <div class="articleUrl"></div>
+    </aisde>
+
+    <!-- this is the feature that Marcus will work on. List to select video games-->
+
+    <section>
+        <form>
+            <fieldset>
+                <legend>Genre</legend>
+                <input type="checkbox" name="Genre" value="Adventure" id="adventure">Adventure<br>
+                <input type="checkbox" name="Genre" value="Indie" id="indie">Indie<br>
+                <input type="checkbox" name="Genre" value="Puzzle" id="puzzle">Puzzle<br>
+                <input type="checkbox" name="Genre" value="Action" id="action">Action<br>
+                <input type="checkbox" name="Genre" value="RPG" id="rpg">RPG<br>
+                <input type="checkbox" name="Genre" value="Shooter" id="shooter">Shooter<br>
+            </fieldset>
+            <fieldset2>
+                <legend>ESRB Ratings</legend>
+                <input type="checkbox" name="ESRB Ratings" value="Everyone" id="everyone">Everyone<br>
+                <input type="checkbox" name="ESRB Ratings" value="10+" id="kids">10+<br>
+                <input type="checkbox" name="ESRB Ratings" value="Teen" id="teen">Teen<br>
+                <input type="checkbox" name="ESRB Ratings" value="Mature" id="mature">Mature<br>
+            </fieldset2>
+            <fieldset3>
+                <legend>Platform</legend>
+                <input type="checkbox" name="Platform" value="XBox" id="xbox">XBox<br>
+                <input type="checkbox" name="Platform" value="Playstation" id="playstation">Playstation<br>
+                <input type="checkbox" name="Platform" value="PC" id="pc">PC<br>
+            </fieldset3>
+            <fieldset4>
+                <legend>If You're Jung</legend>
+                <input type="checkbox" name="If You're Jung" value="Jung" id="jungfun">If You're Jung<br>
+            </fieldset4>
+            <button class="generateBtn" id="form-button">Click for Suggestions!</button>
+        </form>
+    </section>
+  </section>
+  <section id="page2" style="display: none">
+    <div id="gameName"></div>
+  </section>
+
+    <!-- Allison will work on the submit button feature -->
+    <!-- <button class="generateBtn">Click for Suggestions!</button> -->
+    <script src="../js/script.js"></script>
+    <script src="../js/news.js"></script>
+  </body>
+</html>
